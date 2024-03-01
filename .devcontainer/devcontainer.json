@@ -1,0 +1,14 @@
+{
+    "name": "My Project with the latest Node.js",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+    "customizations": {
+      "vscode": {
+        "extensions": ["dbaeumer.vscode-eslint"]
+      }
+    },
+    "postCreateCommand": "npm install -g zkapp-cli",
+    "forwardPorts": [],
+    "mounts": [],
+    "remoteUser": "node"
+  }
+  
